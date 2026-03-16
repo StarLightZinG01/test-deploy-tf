@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
-    "start": "next start -p $PORT",
-    "lint": "eslint"
+    "build": "next build",
+    "start": "next start -p 3000",
+    "db:push": "prisma db push"
   },
   "dependencies": {
     "@prisma/client": "6.19",
